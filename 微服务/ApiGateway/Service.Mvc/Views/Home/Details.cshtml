@@ -1,0 +1,25 @@
+﻿@model Service.Mvc.Models.ZouNi
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ZouNi</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.B)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.B)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.A">Edit</a> |
+    <a asp-action="ListShow">Back to List</a>
+</div>

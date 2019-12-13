@@ -1,0 +1,188 @@
+{
+  "GlobalConfiguration": {
+    //外部访问路径
+    "BaseUrl": "http://192.168.109.65:23005",
+    //限速配置
+    "RateLimitOptions": {
+      //白名单
+      //"ClientWhitelist": [],
+      //是否启用限流
+      //"EnableRateLimiting": true,
+      //限制时间段，例如1s，5m，1h，1d
+      "Period": "1s",
+      //重试等待的时间间隔（秒）
+      "PeriodTimespan": 1,
+      //限制 在统计时间段内允许的最大请求数量
+      "Limit": 1,
+      //自定义消息
+      "QuotaExceededMessage": "单位时间内请求次数超过限制！",
+      //当请求过载被截断时返回的http status
+      "HttpStatusCode": 999
+    },
+    //熔断配置
+    "QoSOptions": {
+      "ExceptionsAllowedBeforeBreaking": 3,
+      "DurationOfBreak": 5,
+      //超时值(毫秒)
+      "TimeoutValue": 5000
+    }
+  },
+  "ReRoutes": [
+    //API0项目配置
+    {
+      "UpstreamPathTemplate": "/gateway/0/{url}", //上游请求地址模板
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ], //上游请求方式
+      "DownstreamPathTemplate": "/api/{url}", //下游请求地址模板
+      "DownstreamScheme": "http", //下游
+      "ServiceName": "API0",
+      "UseServiceDiscovery": false,
+      //"LoadBalancer": "RoundRobin",
+      "DownstreamHostAndPorts": [ //下游服务的地址
+        {
+          "Host": "39.98.62.67",
+          "Port": 8042
+        }
+      ],
+      //服务质量与熔断
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3, //允许多少个异常请求
+        "DurationOfBreak": 10, // 熔断的时间，单位为秒
+        "TimeoutValue": 5000 //如果下游请求的处理时间超过多少秒则自如将请求设置为超时
+      },
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "IdentityBearer",
+        "AllowedScopes": [
+
+        ]
+      }
+    },
+    //API1项目配置
+    {
+      "UpstreamPathTemplate": "/gateway/1/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
+      "DownstreamPathTemplate": "/api1/{url}",
+      "DownstreamScheme": "http",
+      "ServiceName": "API1",
+      "UseServiceDiscovery": false,
+      //"LoadBalancer": "RoundRobin",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.109.65",
+          "Port": 23001
+        }
+      ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeoutValue": 5000
+      }
+      //,
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer",
+      //  "AllowedScopes": []
+      //}
+    },
+    //API2项目配置
+    {
+      "UpstreamPathTemplate": "/gateway/2/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
+      "DownstreamPathTemplate": "/api2/{url}",
+      "DownstreamScheme": "http",
+      "ServiceName": "API2",
+      "UseServiceDiscovery": true,
+      "LoadBalancer": "RoundRobin",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.109.65",
+          "Port": 23002
+        }
+      ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeoutValue": 5000
+      }
+      //,
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer",
+      //  "AllowedScopes": []
+      //}
+    },
+    //API3项目配置
+    {
+      "UpstreamPathTemplate": "/gateway/3/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
+      "DownstreamPathTemplate": "/api/{url}",
+      "DownstreamScheme": "http",
+      "ServiceName": "API3",
+      "UseServiceDiscovery": false,
+      //"LoadBalancer": "RoundRobin",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "39.98.62.67",
+          "Port": 8042
+        }
+      ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeoutValue": 5000
+      }
+      //"AuthenticationOptions":{
+      // "AuthenticationProviderKey": "Bearer",
+      // "AllowedScopes": [ // ]
+      //} 
+    },
+    //API4项目配置
+    {
+      "UpstreamPathTemplate": "/gateway/4/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete", "Put" ],
+      "DownstreamPathTemplate": "/api/{url}",
+      "DownstreamScheme": "http",
+      "ServiceName": "API4",
+      "UseServiceDiscovery": false,
+      //"LoadBalancer": "RoundRobin",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "39.106.15.230",
+          "Port": 1208
+        }
+      ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeoutValue": 5000
+      }
+      //"AuthenticationOptions":{
+      // "AuthenticationProviderKey": "Bearer",
+      // "AllowedScopes": [ // ]
+      //} 
+    },
+    //swagger API1配置
+    {
+      "DownstreamPathTemplate": "/SwaggerAPI1/swagger.json",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/SwaggerAPI1/swagger.json",
+      "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.109.65",
+          "Port": 23001
+        }
+      ]
+    },
+    //swagger API2配置
+    {
+      "DownstreamPathTemplate": "/SwaggerAPI2/swagger.json",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/SwaggerAPI2/swagger.json",
+      "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.109.65",
+          "Port": 23002
+        }
+      ]
+    }
+  ]
+}

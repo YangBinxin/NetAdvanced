@@ -1,0 +1,133 @@
+﻿@model Service.Test2.Models.TbUser
+
+@{
+    ViewData["Title"] = "Creat";
+}
+
+<h1>Creat</h1>
+
+<h4>TbUser</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Creat">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ULoginName" class="control-label"></label>
+                <input asp-for="ULoginName" class="form-control" />
+                <span asp-validation-for="ULoginName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UPwd" class="control-label"></label>
+                <input asp-for="UPwd" class="form-control" />
+                <span asp-validation-for="UPwd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ULookPwd" class="control-label"></label>
+                <input asp-for="ULookPwd" class="form-control" />
+                <span asp-validation-for="ULookPwd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UTruename" class="control-label"></label>
+                <input asp-for="UTruename" class="form-control" />
+                <span asp-validation-for="UTruename" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="USex" class="control-label"></label>
+                <input asp-for="USex" class="form-control" />
+                <span asp-validation-for="USex" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UBrithday" class="control-label"></label>
+                <input asp-for="UBrithday" class="form-control" />
+                <span asp-validation-for="UBrithday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ULastip" class="control-label"></label>
+                <input asp-for="ULastip" class="form-control" />
+                <span asp-validation-for="ULastip" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ULastlogintime" class="control-label"></label>
+                <input asp-for="ULastlogintime" class="form-control" />
+                <span asp-validation-for="ULastlogintime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UEmail" class="control-label"></label>
+                <input asp-for="UEmail" class="form-control" />
+                <span asp-validation-for="UEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UTel" class="control-label"></label>
+                <input asp-for="UTel" class="form-control" />
+                <span asp-validation-for="UTel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UIdcard" class="control-label"></label>
+                <input asp-for="UIdcard" class="form-control" />
+                <span asp-validation-for="UIdcard" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UBrithplace" class="control-label"></label>
+                <input asp-for="UBrithplace" class="form-control" />
+                <span asp-validation-for="UBrithplace" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UZip" class="control-label"></label>
+                <input asp-for="UZip" class="form-control" />
+                <span asp-validation-for="UZip" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UAddress" class="control-label"></label>
+                <input asp-for="UAddress" class="form-control" />
+                <span asp-validation-for="UAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UQuestion" class="control-label"></label>
+                <input asp-for="UQuestion" class="form-control" />
+                <span asp-validation-for="UQuestion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UAnswer" class="control-label"></label>
+                <input asp-for="UAnswer" class="form-control" />
+                <span asp-validation-for="UAnswer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DId" class="control-label"></label>
+                <input asp-for="DId" class="form-control" />
+                <span asp-validation-for="DId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UState" class="control-label"></label>
+                <input asp-for="UState" class="form-control" />
+                <span asp-validation-for="UState" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UType" class="control-label"></label>
+                <input asp-for="UType" class="form-control" />
+                <span asp-validation-for="UType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Flag" class="control-label"></label>
+                <input asp-for="Flag" class="form-control" />
+                <span asp-validation-for="Flag" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remark" class="control-label"></label>
+                <input asp-for="Remark" class="form-control" />
+                <span asp-validation-for="Remark" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

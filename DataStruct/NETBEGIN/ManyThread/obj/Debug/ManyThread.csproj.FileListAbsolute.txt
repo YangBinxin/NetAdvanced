@@ -1,0 +1,12 @@
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\ManyThread\bin\Debug\ManyThread.exe.config
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\ManyThread\bin\Debug\ManyThread.exe
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\ManyThread\bin\Debug\ManyThread.pdb
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\ManyThread\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\ManyThread\bin\Debug\NPOI.dll
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\ManyThread\bin\Debug\NPOI.OOXML.dll
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\ManyThread\bin\Debug\NPOI.OpenXml4Net.dll
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\ManyThread\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\ManyThread\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\ManyThread\obj\Debug\ManyThread.exe
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\ManyThread\obj\Debug\ManyThread.pdb
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\ManyThread\obj\Debug\ManyThread.csprojResolveAssemblyReference.cache

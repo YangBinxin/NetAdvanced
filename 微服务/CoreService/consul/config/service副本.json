@@ -1,0 +1,48 @@
+{
+  "services": [
+    {
+      "id": "API0",
+      "name": "API0",
+      "tags": [ "API0" ],
+      "address": "39.98.62.67",
+      "port": 8042
+    },
+    {
+      "id": "API1",
+      "name": "API1",
+      "tags": [ "API1" ],
+      "address": "192.168.109.65",
+      "port": 23001
+    },
+    {
+      "id": "API2",
+      "name": "API2",
+      "tags": [ "API2" ],
+      "address": "192.168.109.65",
+      "port": 23002
+    },
+    {
+      "id": "API3",
+      "name": "API3",
+      "tags": [ "API3" ],
+      "address": "39.98.62.67",
+      "port": 8042
+    },
+    {
+      "id": "API4",
+      "name": "API4",
+      "tags": [ "API4" ],
+      "address": "39.106.15.230",
+      "port": 1208
+    }
+  ],
+  "check": [
+    {
+      "id": "APICheck",
+      "name": "APICheck",
+      "tcp": "192.168.109.65:23005",
+      "interval": "10s",
+      "timeout": "1s"
+    }
+  ]
+}

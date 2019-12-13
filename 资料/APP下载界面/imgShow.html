@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="jquery-1.10.2.min.js"></script>
+		<script src="fly-zoom-img.js"></script>
+	</head>
+	<body>
+		<div id='getRecord'>
+			<img src="img/logo.png" alt="">
+		</div>
+	</body>
+</html>
+<script>
+	// #getRecord是img标签的父元素，并不支持委托，所以当你的图片是新增的，需要再次调用以下代码，可以写成一个函数调用
+	$('#getRecord').FlyZommImg({
+		miscellaneous: false, //是否显示底部辅助按钮
+		closeBtn: true, //是否打开右上角关闭按钮
+		hideClass: '', //不需要显示预览的 class
+		imgQuality: 'original' //图片质量类型  thumb 缩略图  original 默认原图
+	});
+</script>

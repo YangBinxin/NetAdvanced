@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\杨彬鑫\\代码\\NET进阶\\微服务\\ApiGateway\\Service.Common\\Service.Common.csproj": {}
+  },
+  "projects": {
+    "D:\\杨彬鑫\\代码\\NET进阶\\微服务\\ApiGateway\\Service.Common\\Service.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\杨彬鑫\\代码\\NET进阶\\微服务\\ApiGateway\\Service.Common\\Service.Common.csproj",
+        "projectName": "Service.Common",
+        "projectPath": "D:\\杨彬鑫\\代码\\NET进阶\\微服务\\ApiGateway\\Service.Common\\Service.Common.csproj",
+        "packagesPath": "C:\\Users\\hxtj02\\.nuget\\packages\\",
+        "outputPath": "D:\\杨彬鑫\\代码\\NET进阶\\微服务\\ApiGateway\\Service.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hxtj02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobClient\bin\Debug\JobClient.exe.config
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobClient\bin\Debug\JobClient.exe
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobClient\bin\Debug\JobClient.pdb
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobClient\bin\Debug\JobTaskCls.dll
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobClient\bin\Debug\JobTaskCls.pdb
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobClient\obj\Debug\JobClient.csprojResolveAssemblyReference.cache
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobClient\obj\Debug\JobClient.exe
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobClient\obj\Debug\JobClient.pdb

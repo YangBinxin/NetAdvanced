@@ -1,0 +1,42 @@
+1、在consul/config/service.json文件中配置服务地址。
+
+2、将测试项目API部署IIS
+
+3、命令行 启动Consul
+	a.cd 打开文件目录
+
+	b.d:  切换指定文件夹 
+	
+	c.输入 consul.exe启动软件
+
+	d.按照启动模式输入指令
+
+		i.启用开发模式
+		consul agent -dev -config-dir=./config
+
+		ii.启用服务模式
+		consul agent -server -bootstrap-expect 1 -data-dir ./tmp/consul -node=n1 -bind=192.168.109.65 -ui-dir ./dist/ -rejoin -config-dir=./config -client 0.0.0.0
+
+		iii.
+
+4、服务启动后，命令窗口不可关闭
+
+5、访问绑定地址加端口8500，查看   http://192.168.109.65:8500
+
+6、测试实例  http://192.168.109.65:23005/gateway/1/TestOne
+
+
+
+注意：
+	1.本项目配置有3个API项目地址  两个部署于本机  一个部署于服务器
+	2.网关项目，其中包含Consul文件，netCore 2.2框架
+	3.192.168.109.65 地址，本机IP地址
+	4.本机要安装.netCore,IIS 可以部署netcore2.2项目
+		iis部署，应用程序池，选择项目=》基本设置=》NET CLR版本(选择无托管代码)。
+		iis部署，应用程序池，选择项目=》高级设置=》进程模型=》加载用户配置文件(选择true)。
+	5.项目不能运行，可使用visual studi code加载项目，可在终端查看错误信息。
+						
+
+参考文档：https://docs.xin-lai.com/2019/05/17/官方内容/微服务架构整体说明/#toc-heading-11
+	  https://blog.csdn.net/yuanyuanispeak/article/details/54880743
+

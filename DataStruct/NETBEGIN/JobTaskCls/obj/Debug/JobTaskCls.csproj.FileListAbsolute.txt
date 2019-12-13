@@ -1,0 +1,10 @@
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\JobTaskCls\bin\Debug\JobTaskCls.dll
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\JobTaskCls\bin\Debug\JobTaskCls.pdb
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\JobTaskCls\bin\Debug\Quartz.dll
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\JobTaskCls\bin\Debug\Quartz.pdb
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\JobTaskCls\bin\Debug\Quartz.xml
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\JobTaskCls\obj\Debug\JobTaskCls.dll
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\JobTaskCls\obj\Debug\JobTaskCls.pdb
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\JobTaskCls\obj\Debug\JobTaskCls.csprojAssemblyReference.cache
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\JobTaskCls\obj\Debug\JobTaskCls.csproj.CoreCompileInputs.cache
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\JobTaskCls\obj\Debug\JobTaskCls.csproj.CopyComplete

@@ -1,0 +1,17 @@
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\bin\Debug\JobWorkForm.exe.config
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\bin\Debug\JobWorkForm.exe
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\bin\Debug\JobWorkForm.pdb
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\bin\Debug\JobTaskCls.dll
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\bin\Debug\Quartz.dll
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\bin\Debug\JobTaskCls.pdb
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\bin\Debug\Quartz.pdb
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\bin\Debug\Quartz.xml
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\obj\Debug\JobWorkForm.csprojAssemblyReference.cache
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\obj\Debug\JobWorkForm.AddJobForm.resources
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\obj\Debug\JobWorkForm.Form1.resources
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\obj\Debug\JobWorkForm.Properties.Resources.resources
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\obj\Debug\JobWorkForm.csproj.GenerateResource.cache
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\obj\Debug\JobWorkForm.csproj.CoreCompileInputs.cache
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\obj\Debug\JobWorkForm.csproj.CopyComplete
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\obj\Debug\JobWorkForm.exe
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\Quartz\JobWorkForm\obj\Debug\JobWorkForm.pdb

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			html,
+			body {
+				margin: 0;
+				padding: 0;
+				background-color: #fff;
+			}
+
+			.container {
+				width: 100%;
+				height: auto;
+				margin: 0 auto;
+				padding-bottom: 6.5%;
+			}
+
+			.header {
+				width: 100%;
+				margin-top: 6.5%;
+				display: block;
+			}
+
+			.header img {
+				margin: 0 auto;
+				display: block;
+				width: 26%;
+			}
+
+			.txt_1 {
+				width: 100%;
+			}
+
+			.txt_1 img {
+				width: 70%;
+				margin: 0 auto;
+				display: block;
+				margin-top: 5%;
+			}
+
+			.main-content {
+				width: 100%;
+				display: block;
+			}
+
+			.main-content img {
+				width: 87%;
+				margin-top: 6%;
+				margin-left: 6.5%;
+			}
+
+			.txt_2 {
+				width: 100%;
+				display: block;
+			}
+
+			.txt_2 img {
+				width: 50%;
+				margin: 0 auto;
+				display: block;
+			}
+
+			.footer {
+				width: 100%;
+				height: auto;
+				display: block;
+				margin-top: 7%;
+				margin-bottom: 6.5%;
+			}
+
+			.qrcode {
+				width: 30%;
+				float: left;
+				margin-left: 11%;
+			}
+
+			.qrcode img {
+				width: 100%;
+				margin-top: 10%;
+			}
+
+			.down {
+				width: 50%;
+				height: auto;
+				display: inline-block;
+				margin-left: 2.5%;
+			}
+
+			.iosdown {
+				width: 92%;
+				/* margin-top: 1%; */
+				margin-top: 15%;
+				display: none;
+			}
+
+			.iosdown img {
+				width: 100%;
+			}
+
+			.andirdown {
+				width: 92%;
+				/* margin-top: -5px; */
+				margin-top: 15%;
+				display: none;
+			}
+
+			.andirdown img {
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<img src="img/logo.png" />
+			</div>
+			<div class="txt_1">
+				<img src="img/txt_1.png">
+			</div>
+			<div class="main-content">
+				<img src="img/img1.png" />
+			</div>
+			<div class="txt_2">
+				<img src="img/txt-2.png">
+			</div>
+			<div class="footer">
+				<div class="qrcode">
+					<img src="img/qrcode.png" />
+				</div>
+				<div class="down">
+					<div id="iosdown" class="iosdown">
+						<img src="img/ios.png" />
+					</div>
+					<div id="andirdown" class="andirdown">
+						<img src="img/andir.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script>
+	var sUserAgent = navigator.userAgent.toLowerCase();
+
+	function is_weixin() {
+		if (sUserAgent.match(/MicroMessenger/i) == "micromessenger") {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	var isWeixin = is_weixin();
+
+	var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+	var bIsIphone = sUserAgent.match(/iphone/i) == "iphone";
+	var bIsIpod = sUserAgent.match(/ipod/i) == "ipod";
+	var bIsIos = sUserAgent.match(/ios/i) == "ios";
+
+	//判定安卓还是苹果并进行单独下载按钮的显示
+	if (bIsIpad || bIsIphone || bIsIpod || bIsIos) {
+		document.getElementById("iosdown").style.display = "block";
+	} else {
+		document.getElementById("andirdown").style.display = "block";
+	}
+
+	//iphone 点击事件
+	document.getElementById('iosdown').onclick = function() {
+		if (isWeixin) {
+			location.href = 'http://a.app.qq.com/o/simple.jsp?pkgname=com.hxtj.activity';
+		} else {
+			location.href = "itms-apps://itunes.apple.com/app/id1095981915";
+			//location.href = "https://itunes.apple.com/cn/app/he-xie-ti-jian/id1095981915?mt=8";
+		}
+	}
+
+	//Android 点击事件
+	document.getElementById('andirdown').onclick = function() {
+		if (isWeixin) {
+			location.href = 'http://a.app.qq.com/o/simple.jsp?pkgname=com.hxtj.activity';
+		} else {
+			location.href = "http://www.hxtj.net/webapi/appdwn/AMedical.apk";
+		}
+	}
+</script>

@@ -1,0 +1,60 @@
+[
+  {
+    "typeId": 1,
+    "type": "发起人"
+  },
+  {
+    "ApprovalMemberType": 0,
+    "Level": 1,
+    "TeacherLeaveDuration": "2",
+    "TeacherLeaveDurationType": 2,
+    "type": "条件1",
+    "typeId": 2
+  },
+  {
+    "ApprovalMemberRoleID": "",
+    "ApprovalMemberList": [
+      "5822",
+      "111603"
+    ],
+    "ApprovalMemberType": 1,
+    "ApprovalMode": 0,
+    "IsApprovalMySelf": 0,
+    "type": "审批人",
+    "typeId": 3
+  },
+  {
+    "CcMemberList": [
+      "12786",
+      "3025",
+      "82601",
+      "3026",
+      "84601"
+    ],
+    "type": "抄送人",
+    "typeId": 4
+  },
+  {
+    "ApprovalMemberRoleID": "",
+    "ApprovalMemberList": [
+      "5822",
+      "111603"
+    ],
+    "ApprovalMemberType": 1,
+    "ApprovalMode": 0,
+    "IsApprovalMySelf": 0,
+    "type": "审批人",
+    "typeId": 3
+  },
+  {
+    "CcMemberList": [
+      "12786",
+      "3025",
+      "82601",
+      "3026",
+      "84601"
+    ],
+    "type": "抄送人",
+    "typeId": 4
+  }
+]

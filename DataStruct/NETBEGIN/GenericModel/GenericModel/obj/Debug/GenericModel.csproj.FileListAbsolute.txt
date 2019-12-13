@@ -1,0 +1,6 @@
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\GenericModel\GenericModel\bin\Debug\GenericModel.exe.config
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\GenericModel\GenericModel\bin\Debug\GenericModel.exe
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\GenericModel\GenericModel\bin\Debug\GenericModel.pdb
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\GenericModel\GenericModel\obj\Debug\GenericModel.exe
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\GenericModel\GenericModel\obj\Debug\GenericModel.pdb
+D:\杨彬鑫\代码\NET进阶\DataStruct\NETBEGIN\GenericModel\GenericModel\obj\Debug\GenericModel.csprojResolveAssemblyReference.cache

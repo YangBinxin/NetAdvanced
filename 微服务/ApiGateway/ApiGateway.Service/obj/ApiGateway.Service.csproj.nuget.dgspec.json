@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\杨彬鑫\\代码\\NET进阶\\微服务\\ApiGateway\\ApiGateway.Service\\ApiGateway.Service.csproj": {}
+  },
+  "projects": {
+    "D:\\杨彬鑫\\代码\\NET进阶\\微服务\\ApiGateway\\ApiGateway.Service\\ApiGateway.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\杨彬鑫\\代码\\NET进阶\\微服务\\ApiGateway\\ApiGateway.Service\\ApiGateway.Service.csproj",
+        "projectName": "ApiGateway.Service",
+        "projectPath": "D:\\杨彬鑫\\代码\\NET进阶\\微服务\\ApiGateway\\ApiGateway.Service\\ApiGateway.Service.csproj",
+        "packagesPath": "C:\\Users\\hxtj02\\.nuget\\packages\\",
+        "outputPath": "D:\\杨彬鑫\\代码\\NET进阶\\微服务\\ApiGateway\\ApiGateway.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hxtj02\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.PlatformAbstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[13.5.2, )"
+            },
+            "Ocelot.Administration": {
+              "target": "Package",
+              "version": "[13.5.2, )"
+            },
+            "Ocelot.Cache.CacheManager": {
+              "target": "Package",
+              "version": "[13.5.2, )"
+            },
+            "Ocelot.Provider.Consul": {
+              "target": "Package",
+              "version": "[13.5.2, )"
+            },
+            "Ocelot.Provider.Polly": {
+              "target": "Package",
+              "version": "[13.5.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

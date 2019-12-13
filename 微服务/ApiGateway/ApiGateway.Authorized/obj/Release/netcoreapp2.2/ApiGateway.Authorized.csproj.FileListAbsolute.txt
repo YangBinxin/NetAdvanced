@@ -1,0 +1,14 @@
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\bin\Release\netcoreapp2.2\ApiGateway.Authorized.deps.json
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\bin\Release\netcoreapp2.2\ApiGateway.Authorized.runtimeconfig.json
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\bin\Release\netcoreapp2.2\ApiGateway.Authorized.runtimeconfig.dev.json
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\bin\Release\netcoreapp2.2\ApiGateway.Authorized.dll
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\bin\Release\netcoreapp2.2\ApiGateway.Authorized.pdb
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\obj\Release\netcoreapp2.2\ApiGateway.Authorized.csprojAssemblyReference.cache
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\obj\Release\netcoreapp2.2\ApiGateway.Authorized.csproj.CoreCompileInputs.cache
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\obj\Release\netcoreapp2.2\ApiGateway.Authorized.RazorAssemblyInfo.cache
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\obj\Release\netcoreapp2.2\ApiGateway.Authorized.RazorAssemblyInfo.cs
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\obj\Release\netcoreapp2.2\ApiGateway.Authorized.AssemblyInfoInputs.cache
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\obj\Release\netcoreapp2.2\ApiGateway.Authorized.AssemblyInfo.cs
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\obj\Release\netcoreapp2.2\ApiGateway.Authorized.RazorTargetAssemblyInfo.cache
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\obj\Release\netcoreapp2.2\ApiGateway.Authorized.dll
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\ApiGateway.Authorized\obj\Release\netcoreapp2.2\ApiGateway.Authorized.pdb

@@ -1,0 +1,9 @@
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\Service.Common\bin\Debug\netstandard2.0\Service.Common.deps.json
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\Service.Common\bin\Debug\netstandard2.0\Service.Common.dll
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\Service.Common\obj\Debug\netstandard2.0\Service.Common.csproj.CoreCompileInputs.cache
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\Service.Common\obj\Debug\netstandard2.0\Service.Common.AssemblyInfoInputs.cache
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\Service.Common\obj\Debug\netstandard2.0\Service.Common.AssemblyInfo.cs
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\Service.Common\bin\Debug\netstandard2.0\Service.Common.pdb
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\Service.Common\obj\Debug\netstandard2.0\Service.Common.dll
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\Service.Common\obj\Debug\netstandard2.0\Service.Common.pdb
+D:\杨彬鑫\代码\NET进阶\微服务\ApiGateway\Service.Common\obj\Debug\netstandard2.0\Service.Common.csprojAssemblyReference.cache
